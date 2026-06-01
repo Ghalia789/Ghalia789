@@ -27,6 +27,7 @@
 #### 🫁 [CheXNet AI – Pneumonia Detection System](https://github.com/Ghalia789/chexnet-app)
 > Deep learning web app for automated pneumonia detection in chest X-rays
 
+- Implementation of the CheXNet research paper (Rajpurkar et al., 2017) as a hands-on ML exercise
 - DenseNet-121 model with **Grad-CAM heatmap** visualization
 - Risk classification (LOW / MODERATE / HIGH) + clinical PDF report generation
 - Deployed via **Docker + Kubernetes (GCP/GKE)** across dev/test/prod environments
@@ -37,7 +38,7 @@
 #### 🗂️ [KOMO – Collaborative Project Management App](https://github.com/Ghalia789/komo_app)
 > Flutter mobile app for real-time team collaboration and task management
 
-- **Kanban board** with drag-and-drop, subtasks, tags, priorities & assignees
+- **Kanban board** with tasks, subtasks, tags, priorities & assignees
 - Real-time updates via **Firestore**, member invites, notifications
 - Clean architecture with **BLoC** state management + GetIt DI
 - `Flutter` `Dart` `Firebase` `BLoC` `Firestore` `Cloud Functions`
@@ -60,7 +61,8 @@
 
 - Submit, track, and manage customer complaints end-to-end
 - RESTful backend with **Spring Boot**, connected to a relational database
-- `Java` `Spring Boot` `REST API`
+- **Angular** Frontend dual interface for Admins (manage & assign complaints) and Agents (handle & resolve tickets)
+- `Java` `Spring Boot` `REST API` `Angular`
 
 ---
 
